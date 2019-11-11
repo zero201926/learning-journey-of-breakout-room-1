@@ -12,5 +12,5 @@ public class Fizzbuzz {
         return String.valueOf(number);
     }
 
-
 }
+

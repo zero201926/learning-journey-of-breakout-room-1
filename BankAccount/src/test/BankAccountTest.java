@@ -1,36 +1,34 @@
-package test;
+package Test;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-
 class BankAccountTest {
-
     @Test
-    public void ViewingTheAccountBalance(){
-
-        main.BankAccount account = new main.BankAccount(100);
-
-        assertEquals(100, account.ViewBalance());
+    public void canViewBalance() {
+//        Creating new instance of BankAccount class
+        Main.BankAccount account = new Main.BankAccount();
+//        Expecting account to start off empty
+        assertEquals(0, account.balance());
     }
 
     @Test
-    public void DepositMoney(){
-
-        main.BankAccount account = new main.BankAccount(100);
-
-        account.DepositMoney(50);
-
-        assertEquals(150, account.ViewBalance());
+    public void canDepositMoney() {
+//        Creating new instance of BankAccount class
+        Main.BankAccount account = new Main.BankAccount();
+//        Call function deposit to add money to balance
+        account.deposit(10);
+//        Expecting the balance to have increased by 10
+        assertEquals(10, account.balance());
     }
 
     @Test
-    public void WithdrawMoney(){
-        main.BankAccount account = new main.BankAccount(100);
-
-        account.WithdrawMoney(30);
-
-        assertEquals(70, account.ViewBalance());
+    public void canWithdrawMoney() {
+//        Creating new instance of BankAccount class
+        Main.BankAccount account = new Main.BankAccount();
+        account.deposit(10);
+        account.withdraw(5);
+        assertEquals(5, account.balance());
     }
 }

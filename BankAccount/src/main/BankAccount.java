@@ -1,27 +1,24 @@
-package main;
+package Main;
 
-import java.util.Set;
+public class BankAccount {
+    //    When we create BankAccount instance, assigns it a currentBalance
+//    (Like an initialise)
+    private int currentBalance;
 
-public class BankAccount{
-    int SetBalance = 0;
-
-    public BankAccount(int Balance){
-        SetBalance = Balance;
+    //    Function that returns the current balance
+    public Integer balance() {
+        return currentBalance;
     }
 
-    public static void main(String[] args){
-        //If we want to print something we can do here...
+    //    Function that adds money to the bank account balance
+    public Integer deposit(int money) {
+        currentBalance += money;
+        return currentBalance;
     }
 
-    public Integer ViewBalance(){
-        return SetBalance;
-    }
-
-    public void DepositMoney(int Deposit){
-        SetBalance = SetBalance + Deposit;
-    }
-
-    public void WithdrawMoney(int Withdrawal){
-        SetBalance = SetBalance - Withdrawal;
+    //    Function that takes money off of the balance
+    public Integer withdraw(int money) {
+        currentBalance -= money;
+        return currentBalance;
     }
 }

@@ -19,7 +19,7 @@ public class Plane {
     public ArrayList<Plane> ViewGarage(){
         return garage;
     }
-    public void TakeOfPlane(){
-
+    public void TakeOfPlane(Plane planedouble){
+        garage.remove(planedouble);
     }
 }

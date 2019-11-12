@@ -7,6 +7,7 @@ public class BankAccount {
 
     //    Function that returns the current balance
     public Integer balance() {
+
         return currentBalance;
     }
 

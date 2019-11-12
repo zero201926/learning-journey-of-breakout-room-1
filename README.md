@@ -11,4 +11,24 @@ Day 1(vikash):
 
 ```
 Day2(Will)
+
 ```
+
+Bank Account Java
+Functionality:
+View balance
+Deposit money
+Withdraw money
+Pin number (big stretch)
+
+As a user,
+So that I can see how much money I have,
+I want to be able to view my balance.
+
+As a user,
+so that I can add money to my bank account,
+I want to be able to deposit money into my bank account.
+
+As a user,
+so that I can take money out of my bank account,
+I want to be able to withdraw money from my bank account.

@@ -18,4 +18,5 @@ public class AirControl {
         hangar.remove(plane);
         return temp;
     }
+    public ArrayList<Plane> planes(){ return hangar;}
 }

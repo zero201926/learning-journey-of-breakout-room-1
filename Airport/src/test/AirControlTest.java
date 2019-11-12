@@ -14,17 +14,22 @@ class AirControlTest {
         ArrayList<Plane> planedoublearray = new ArrayList<>();
 
         main.Plane plane = new main.Plane();
-        main.Plane planedouble = new main.Plane();
+
         main.AirControl airport = new main.AirControl(plane);
-        planedoublearray.add(planedouble);
-        airport.LandPlane(planedouble);
-//        assertArrayEquals(ArrayList<Plane>, planedouble);
-//        assertThat(garage, planedouble());
+        planedoublearray.add(plane);
+        airport.LandPlane(plane);
         assertEquals(planedoublearray, airport.ViewGarage());
     }
 
     @Test
     public void PlaneTakesOff(){
+        ArrayList<Plane> planedoublearray = new ArrayList<>();
+        ArrayList<Plane> EmptyArray = new ArrayList<>();
+        main.Plane plane = new main.Plane();
+        main.AirControl airport = new main.AirControl(plane);
+        planedoublearray.add(plane);
+        planedoublearray.remove(new Integer(1));
+        assertEquals(EmptyArray, airport.ViewGarage());
 
     }
 

@@ -20,7 +20,7 @@ public class AirControl {
     public ArrayList<Plane> ViewGarage(){
         return garage;
     }
-    public void TakeOfPlane(){
-
+    public void TakeOffPlane(Plane planedouble){
+        garage.remove(planedouble);
     }
 }

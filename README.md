@@ -11,15 +11,21 @@ Day 1(vikash):
 
 ```
 Day2(Will)
+Things we did today:
+- Pair programmed to complete Bank Account
+- Compared our 2 versions (both were similar, neither pair had any major problems)
+- Completed airport as a 'mob', all test driven and using multiple objects;
+- Learned lots about testing using Java and Assert (containing items in string, etc.)
 
 ```
-
 Bank Account Java
 Functionality:
 View balance
 Deposit money
 Withdraw money
 Pin number (big stretch)
+
+Completed Bank Account User Stories:
 
 As a user,
 So that I can see how much money I have,
@@ -34,7 +40,7 @@ so that I can take money out of my bank account,
 I want to be able to withdraw money from my bank account.
 
 
-Airport Challenge user Stories
+Completed Airport Challenge user Stories:
 
 As an air traffic controller 
 So I can get passengers to a destination 
@@ -44,18 +50,9 @@ As an air traffic controller
 So I can get passengers on the way to their destination 
 I want to instruct a plane to take off from an airport and confirm that it is no longer in the airport
 
-As an air traffic controller 
-To ensure safety 
-I want to prevent landing when the airport is full 
+```
+Day 3 (Albion)
 
-As the system designer
-So that the software can be used for many different airports
-I would like a default airport capacity that can be overridden as appropriate
+```
 
-As an air traffic controller 
-To ensure safety 
-I want to prevent takeoff when weather is stormy 
 
-As an air traffic controller 
-To ensure safety 
-I want to prevent landing when weather is stormy 

@@ -18,8 +18,8 @@ class AirControlTest {
     public void PlaneTakeoff(){
         main.AirControl airport = new main.AirControl();
         main.Plane plane = new main.Plane();
-        airport.takeoff(plane);
-        assertEquals( 0, airport.space());
+        airport.land(plane);
+        assertEquals(plane, airport.takeoff(plane));
     }
 
 }

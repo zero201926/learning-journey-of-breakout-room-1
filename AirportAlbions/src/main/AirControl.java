@@ -13,9 +13,9 @@ public class AirControl {
         return hangar.size();
     }
 
-    public Plane takeoff(Plane plane){
+    public Plane takeoff(){
         Plane temp = hangar.get(hangar.size() - 1);
-        hangar.remove(plane);
+        hangar.remove(hangar.size() - 1);
         return temp;
     }
     public ArrayList<Plane> planes(){ return hangar;}

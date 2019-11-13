@@ -20,7 +20,7 @@ class AirControlTest {
         main.AirControl airport = new main.AirControl();
         main.Plane plane = new main.Plane();
         airport.land(plane);
-        assertEquals(plane, airport.takeoff(plane));
+        assertEquals(plane, airport.takeoff());
     }
 
     @Test

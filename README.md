@@ -52,7 +52,11 @@ I want to instruct a plane to take off from an airport and confirm that it is no
 
 ```
 Day 3 (Albion)
-
+- Screen recorded TDD of basic java program
+- On todo list webb app:
+  - display page shows whats in the database
+  - a new webpage with a form to fill in data
+  - form posts and stores the data in the database
 ```
 
 

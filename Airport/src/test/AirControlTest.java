@@ -14,7 +14,6 @@ class AirControlTest {
         ArrayList<Plane> planedoublearray = new ArrayList<>();
 
         main.Plane plane = new main.Plane();
-
         main.AirControl airport = new main.AirControl(plane);
         planedoublearray.add(plane);
         airport.LandPlane(plane);

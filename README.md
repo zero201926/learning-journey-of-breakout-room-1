@@ -59,4 +59,11 @@ Day 3 (Albion)
   - form posts and stores the data in the database
 ```
 
+```
+Day 4 (Luke)
 
+- We made good progress with the ToDo challenge and managed to get a test working to test the Createitems method
+- We also managed to get the function to "Complete" an item in the list to work and we now have databases that can delete specific items.
+- We also managed to understand the MVC concept with a helpful sequence diagram.
+- W ealso used 'visibility' alot to get an understanding of what was going on whern we ran the server and when we visited different get requests.
+```
